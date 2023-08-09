@@ -1,39 +1,61 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "The group of bits 11001 is serially shifted (right-most bit first) into a 5-bit parallel output shift register with an initial state 01110. After three clock pulses, the register contains ________",
+        "answers": {
+          "a": "01110",
+          "b": "00001",
+          "c": "00101",
+          "d": "00110"
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "Assume that a 4-bit serial in/serial out shift register is initially clear. We wish to store the nibble 1100. What will be the 4-bit pattern after the second clock pulse? (Right-most bit first)",
+        "answers": {
+          "a": "1100",
+          "b": "0011",
+          "c": "0000",
+          "d": "1111"
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+      {
+        "question": "A serial in/parallel out, 4-bit shift register initially contains all 1s. The data nibble 0111 is waiting to enter. After four clock pulses, the register contains ________",
+        "answers": {
+          "a": "0000",
+          "b": "1111",
+          "c": "0111",
+          "d": "1000"
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "With a 200 kHz clock frequency, eight bits can be serially entered into a shift register in ________",
+        "answers": {
+          "a": "4 μs",
+          "b": "40 μs",
+          "c": "400 μs",
+          "d": "40 ms"
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+      {
+        "question": "An 8-bit serial in/serial out shift register is used with a clock frequency of 2 MHz to achieve a time delay (td) of ________",
+        "answers": {
+          "a": "16 μs",
+          "b": "8 μs",
+          "c": "4 μs",
+          "d": "2 μs"
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      }
+    ]
+  }
+  
