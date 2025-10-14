@@ -82,8 +82,7 @@ Input Bit: 157:0 and clock.
 
 Output Bit: 159: 0, 160:1, 161:0, 162:1
 
-At each clock pulse, all the bits are shifted one step to the right side and stored in the register.
-
+At each clock pulse, all bits are shifted one step to the right and stored in the register.
 
 
 # Manual
